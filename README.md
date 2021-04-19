@@ -6,7 +6,7 @@ It was necessary to edit the code to be able to use it.
 
 0 ) Check script conf: 
 
-data = {
+/* data = {
 "name":"Zabbix",
 "email":"zabbix@<YOURDOMAIN>",
 "phone":"111111111111",
@@ -15,6 +15,7 @@ data = {
 "topicId":"Zabbix",
 "empresa":"Zabbix"
 }
+*/
 
 ** Configure according to your osticket configuration.
 
