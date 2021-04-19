@@ -4,6 +4,20 @@ source: http://sirlagz.net/2016/08/10/integrating-zabbix-with-osticket/
 
 It was necessary to edit the code to be able to use it.
 
+0 ) Check script conf: 
+
+data = {
+"name":"Zabbix",
+"email":"zabbix@<YOURDOMAIN>",
+"phone":"111111111111",
+"subject":args.summary,
+"message":args.detail,
+"topicId":"Zabbix",
+"empresa":"Zabbix"
+}
+
+** Configure according to your osticket configuration.
+
 
 1 ) Copy alertscript.py   alertscripts/
 
